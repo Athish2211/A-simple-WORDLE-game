@@ -13,7 +13,6 @@ A command-line implementation of the popular word-guessing game WORDLE, built wi
 - [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -54,14 +53,7 @@ cd wordle-python
 ```
 
 2. **Ensure you have the word list file**:
-Create a file named `four_letter_words.py` with the following structure:
-```python
-words = [
-    "word", "play", "game", "they", "seen",
-    "test", "code", "life", "time", "work",
-    # Add more 4-letter words here
-]
-```
+Save the file named `four_letter_words.py`
 
 3. **Run the game**:
 ```bash
@@ -110,7 +102,6 @@ wordle-python/
 ├── WORDLE__.ipynb              # Main game notebook
 ├── four_letter_words.py        # Word list module
 ├── README.md                   # Project documentation
-└── requirements.txt            # Python dependencies (if any)
 ```
 
 ## 🧠 Game Logic
@@ -144,8 +135,6 @@ for i in range(4):
         feedback.append("GREY")       # Not in word
 ```
 
-## 📸 Screenshots
-
 ### Game Start
 ```
 Welcome to WORDLE!
@@ -177,25 +166,6 @@ Guess 2 : feel - ['GREY', 'YELLOW', 'GREEN', 'GREY']
 - [ ] **Color Blind Mode**: Alternative symbols instead of colors
 - [ ] **Save/Load Progress**: Continue games later
 
-## 🛠️ Customization
-
-### Adding More Words
-
-Edit `four_letter_words.py` to expand the word list:
-```python
-words = [
-    "your", "word", "list", "here",
-    "make", "sure", "they", "exist",
-    # Add as many as you want!
-]
-```
-
-### Changing Difficulty
-
-Modify the `attempts` variable in the code:
-```python
-attempts = 5  # Change to 3 (hard) or 7 (easy)
-```
 
 ## 🎓 Learning Outcomes
 
@@ -225,9 +195,6 @@ Contributions are welcome! Here's how you can help:
 - Improve input validation
 - Create themed word lists (animals, countries, etc.)
 
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 👏 Acknowledgments
 
@@ -235,13 +202,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Python community for excellent documentation
 - All contributors and players!
 
-## 📧 Contact
-
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/yourusername/wordle-python](https://github.com/yourusername/wordle-python)
-
----
 
 **Happy Word Guessing! 🎉**
 
